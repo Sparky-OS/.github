@@ -45,7 +45,8 @@ Quote the clause, or leave the claim out.
 
 Sparky tools are plain scripts with an `install.sh`, a `CHANGELOG` and a `copyright` file, packaged by hand.
 Our packages follow his way first.
-The full formula lives in the packaging skill described in [ai-skill/SKILL.md](https://github.com/Sparky-OS/.github/blob/main/ai-skill/SKILL.md). The essentials:
+The full formula lives in the packaging skill described in [ai-skill/SKILL.md](https://github.com/Sparky-OS/.github/blob/main/ai-skill/SKILL.md).
+The essentials:
 
 - **Layout of a tool repository:** `bin/`, `lang/`, `share/`, `install.sh` (with `uninstall`), `CHANGELOG`, `copyright`, `LICENSE` (GPLv3), `README.md` in his template. The folder name is the package name, with the `sparky-` prefix for ecosystem tools.
 - **Control fields, in this order:** `Package`, `Version`, `Architecture`, `Maintainer`, `Installed-Size`, `Depends`, then `Recommends` / `Suggests` / `Conflicts` / `Replaces` if needed, `Section`, `Priority`, `Homepage`, `Description`.
@@ -87,5 +88,5 @@ Sparky-OS is a guest in Paweł's house.
 ## Licence
 
 By contributing you agree that your contribution is released under the licence of the repository you contribute to, and that you have the right to do so.
-Sparky-OS repositories don't require a `Signed-off-by:` line, as Paweł's don't. Where a repository asks for one (the kernel and other projects with a Developer Certificate of Origin), **you** add it, and by doing so you certify the Developer Certificate of Origin (https://developercertificate.org/).
-A tool never adds it for you.
+Sparky-OS repositories don't require a `Signed-off-by:` line, as Paweł's don't.
+Where a repository asks for one (the kernel and other projects with a Developer Certificate of Origin), **you** add it, and by doing so you certify the Developer Certificate of Origin (https://developercertificate.org/). A tool never adds it for you.
