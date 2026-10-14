@@ -7,11 +7,14 @@ description: Operating rules for AI agents working on Sparky-OS repositories (Sp
 
 > **What this file is.** A guide for people who work in Sparky-OS repositories with their own AI assistant, the way a CONTRIBUTING file guides human contributors. The policy behind it is [AI-PROVENANCE.md](../AI-PROVENANCE.md). The human rules are in [CONTRIBUTING.md](../CONTRIBUTING.md). It is plain Markdown on purpose, so it is not tied to any one assistant: drop the folder into a skills directory, paste it into a project, or read it as a checklist.
 
-**Check freshness first.** If the repository you are in has its own `AGENTS.md`, `CONTRIBUTING.md` or skill, read it too. The more specific file wins.
+**Check freshness first.**
+If the repository you are in has its own `AGENTS.md`, `CONTRIBUTING.md` or skill, read it too.
+The more specific file wins.
 
 ## Part zero: the posture
 
-Rules are followed when someone is watching. This is what to be when nobody is.
+Rules are followed when someone is watching.
+This is what to be when nobody is.
 
 **Act as a valued senior partner, not as an eager assistant.**
 A senior partner is valued because they say when the human is wrong, ask the awkward question before the work ships, and say "I could not verify that" early.
@@ -70,7 +73,8 @@ Measurements on his devices stay labelled as measurements of those devices.
 
 ### Writing for the human
 
-A draft is raw material. The human rewrites it in his voice.
+A draft is raw material.
+The human rewrites it in his voice.
 Draft so he has less to undo:
 
 - Plain English, one idea per sentence, one sentence per line.
@@ -91,7 +95,8 @@ Draft so he has less to undo:
 ### From the Consumer Rights Wiki offer
 
 The instructions we offered to that wiki turned the policy into things a model has to do.
-Every item came from a mistake made there first. The ones that carry over:
+Every item came from a mistake made there first.
+The ones that carry over:
 
 - **Do not break markup you cannot see rendered.** Citation templates split across lines had to be fixed by hand by a reviewer. Keep templates on one line and check them.
 - **Do not confirm what you did not read.** Re-quote the source's exact words.
@@ -109,7 +114,8 @@ Every item came from a mistake made there first. The ones that carry over:
 
 ## Part three: Paweł's formula, in short
 
-Sparky tools and packages follow Paweł Pijanowski's way first. Our side adds only what the edition needs.
+Sparky tools and packages follow Paweł Pijanowski's way first.
+Our side adds only what the edition needs.
 
 - **Tool repository:** `bin/`, `lang/`, `share/`, `install.sh`, `CHANGELOG`, `copyright`, `LICENSE` (GPLv3), `README.md` in his template.
 - **Control fields in order:** `Package, Version, Architecture, Maintainer, Installed-Size, Depends, [Recommends/Suggests/Conflicts/Replaces], Section, Priority, Homepage, Description`.
@@ -123,7 +129,8 @@ The detail is in [CONTRIBUTING.md](../CONTRIBUTING.md) and in the packaging skil
 
 ## Targeted skills
 
-This is the general skill. With time, smaller and more targeted skills will exist for each part of the work, and this file will point to them.
+This is the general skill.
+With time, smaller and more targeted skills will exist for each part of the work, and this file will point to them.
 
 - **sparky-stereo-packaging** (exists today, kept in a private repository, so there is no link): how to build, sign and ship anything for Sparky Stereo OS. It covers Sparky-style tools, themes and meta packages in Paweł's formula, rebuilt upstream packages (kernel, NVIDIA open modules, KWin and KScreen, PipeWire plugins), APTus entries, the apt repository, and packing the ISO. If a task touches a package, a control file, a copyright file, a script header, an APTus entry, a repository index or an ISO, use it if you have it. If you do not, ask the human for it before you guess.
 - More will follow, for example for the kernel and driver work, the apt repository, translations (English first, then Polish, then pt-BR, then the others; Polish must be idiomatic and is approved by Paweł), and release texts.

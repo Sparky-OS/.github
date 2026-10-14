@@ -2,7 +2,8 @@
 
 This is our policy for contributions made with the help of AI tools.
 It follows the Linux kernel's own documents, in our own terms.
-**It states requirements for AI use. It does not ban AI use, and it does not exempt it either.**
+**It states requirements for AI use.
+It does not ban AI use, and it does not exempt it either.**
 
 The kernel documents, in the mainline tree:
 
@@ -11,17 +12,21 @@ The kernel documents, in the mainline tree:
 
 ## The principle
 
-**The tool never signs. The human does.**
+**The tool never signs.
+The human does.**
 
 Whoever submits a change is the author in every way that matters: legally, technically and socially.
-A tool can help find, write, test and translate. It cannot be responsible.
-That is true in engineering generally: nobody asks which calculator did the arithmetic. They ask whether you consulted the norms and whether you can answer for every line you sign.
+A tool can help find, write, test and translate.
+It cannot be responsible.
+That is true in engineering generally: nobody asks which calculator did the arithmetic.
+They ask whether you consulted the norms and whether you can answer for every line you sign.
 
 ## Requirements
 
 ### 1. The human understands, tested and defends every line
 
-generated-content, section Guidelines: "You are expected to understand and to be able to defend everything you submit. If you are unable to do so, then do not submit the resulting changes."
+generated-content, section Guidelines: "You are expected to understand and to be able to defend everything you submit.
+If you are unable to do so, then do not submit the resulting changes."
 
 For us that means:
 
@@ -32,7 +37,8 @@ For us that means:
 
 ### 2. The human certifies the DCO. An AI never adds Signed-off-by.
 
-coding-assistants, section "Signed-off-by and Developer Certificate of Origin": "AI agents MUST NOT add Signed-off-by tags. Only humans can legally certify the Developer Certificate of Origin (DCO)."
+coding-assistants, section "Signed-off-by and Developer Certificate of Origin": "AI agents MUST NOT add Signed-off-by tags.
+Only humans can legally certify the Developer Certificate of Origin (DCO)."
 
 - Where a repository uses `Signed-off-by:`, the human adds his own, after reviewing the change.
 - An agent working in a repository never writes that line, for anyone.
@@ -57,7 +63,8 @@ We follow the same line, and the same advice: "If in doubt, choose transparency"
 
 ### 4. Verified by running, before any claim
 
-coding-assistants, section "Procedure for finding and fixing bugs", step 3: for a non-trivial bug, "verify that it looks real by attempting to create a reproducer". Step 8: "Indicate what could not be done."
+coding-assistants, section "Procedure for finding and fixing bugs", step 3: for a non-trivial bug, "verify that it looks real by attempting to create a reproducer".
+Step 8: "Indicate what could not be done."
 
 For us:
 
@@ -70,7 +77,8 @@ For us:
 ### 5. Replies to human review are written by the human, in his own words
 
 A reviewer deserves a person.
-Drafts from a tool are raw material. The human reads them, makes them say what he means, and posts them himself.
+Drafts from a tool are raw material.
+The human reads them, makes them say what he means, and posts them himself.
 An AI agent never posts to a tracker, a mailing list or a review thread on its own.
 Review replies are technical and short: concede what is right, refute with facts what is wrong, and do not fight the meta-argument.
 
@@ -83,7 +91,8 @@ Large generated volume gets large scrutiny. generated-content, section Guideline
 
 Many people who know the hardware, the physics or the mathematics do not write English well, or have never used git.
 A tool that bridges that gap is welcome here.
-Disclose it as in section 3, and have someone who reads both languages check the result. Our order is English first, then Polish (idiomatic, approved by Paweł), then pt-BR, then the others.
+Disclose it as in section 3, and have someone who reads both languages check the result.
+Our order is English first, then Polish (idiomatic, approved by Paweł), then pt-BR, then the others.
 
 ### 8. Respect each maintainer's discretion
 
@@ -95,7 +104,8 @@ We accept that for ourselves and we extend it to the people who send us changes.
 To Daniel, **"AI-generated" means an unexamined prompt and unexamined output**: "write anything about this topic and publish it."
 His own process is the opposite.
 He sets the scope and the standard, brings the domain knowledge, makes the connections between fields, corrects the errors, and confirms every source himself.
-A tool helps with the volume. It does not take the decision.
+A tool helps with the volume.
+It does not take the decision.
 
 So we separate two things:
 
@@ -106,10 +116,14 @@ Daniel's stance on credit: assisted-by or co-authored, either is fine, as long a
 
 ## Slop is a missing requirement, not an AI thing
 
-We do not use the compound "AI slop". Slop is a failure of the human loop: no reproducer, no understanding, no limit on volume.
-The largest slop event in open source history was human: Hacktoberfest 2020 paid a t-shirt for four pull requests, and DigitalOcean's own recap counts 34,595 pull requests that no maintainer accepted and 9,598 labelled spam or invalid. No language model was involved.
-What stopped it was a rule, when the event became opt-in. No tool was banned.
-**So we write the requirements down.** That is this page.
+We do not use the compound "AI slop".
+Slop is a failure of the human loop: no reproducer, no understanding, no limit on volume.
+The largest slop event in open source history was human: Hacktoberfest 2020 paid a t-shirt for four pull requests, and DigitalOcean's own recap counts 34,595 pull requests that no maintainer accepted and 9,598 labelled spam or invalid.
+No language model was involved.
+What stopped it was a rule, when the event became opt-in.
+No tool was banned.
+**So we write the requirements down.**
+That is this page.
 
 ## When a reviewer gates on AI use instead of the diff
 
@@ -119,17 +133,23 @@ Name the diff and say what you tested.
 Then make exactly the changes that review asks for.
 This is how Daniel's mpv pull request moved forward: he asked the lead maintainer for a neutral technical review, made the requested changes, and the lead took it over for landing.
 
-If a project simply does not take AI-assisted work, that is its right. People are free to fork, and we do not argue the policy upstream. Our work stays additive and rebasable, so nothing changes for them.
+If a project simply does not take AI-assisted work, that is its right.
+People are free to fork, and we do not argue the policy upstream.
+Our work stays additive and rebasable, so nothing changes for them.
 
 ## The example we follow
 
-Linux commit `818bebeb63dd` ("drm/xe: Don't hand out the flat CCS storage as usable VRAM", 2026-08-21). Linus Torvalds describes "a debug session from hell, enormously helped by an AI doing much of the grunt-work", and says "credit where credit is due and I let the AI write the commit message above".
-It took 24 debug patches and 18 boots. A human directed it, checked it, signed it and disclosed the help in the commit itself.
-He also criticises floods of low-quality AI patches. Both are the same rule: **the human answers for the result.**
+Linux commit `818bebeb63dd` ("drm/xe: Don't hand out the flat CCS storage as usable VRAM", 2026-08-21).
+Linus Torvalds describes "a debug session from hell, enormously helped by an AI doing much of the grunt-work", and says "credit where credit is due and I let the AI write the commit message above".
+It took 24 debug patches and 18 boots.
+A human directed it, checked it, signed it and disclosed the help in the commit itself.
+He also criticises floods of low-quality AI patches.
+Both are the same rule: **the human answers for the result.**
 
 ## For AI agents working here
 
-Read [ai-skill/SKILL.md](https://github.com/Sparky-OS/.github/blob/main/ai-skill/SKILL.md). It turns this page into what an agent has to do.
+Read [ai-skill/SKILL.md](https://github.com/Sparky-OS/.github/blob/main/ai-skill/SKILL.md).
+It turns this page into what an agent has to do.
 Short form: never add `Signed-off-by:`, never post for the human, run before you claim, say what you could not do.
 
 ---
