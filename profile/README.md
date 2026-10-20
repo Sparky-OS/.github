@@ -14,9 +14,10 @@ This is where it is built: Sparky Stereo OS, Daniel Ramos's edition of SparkyLin
 
 *Red-cyan glasses show these in 3D.*
 
-**In development:** nothing to download yet.
+**In development:** the [Flat Headset development APK and matching PC update instructions](https://github.com/Sparky-OS/flat-headset/tree/main/apk) are available; the final stereo edition ISO is still being prepared.
 
 - **[Sparky Stereo OS](https://github.com/Sparky-OS/sparky-stereo-os):** what it does for watching, playing, creating and developing, and how it is built.
+- **[Architecture and repository guide](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/architectural-synthesis.md):** the display pipeline, desktop depth, media and system components, with sources and implementation status; adapted from Daniel's Gemini / NotebookLM research.
 - **[Our forks](#repositories):** the programs we change for 3D, from KDE and the Linux kernel to video players and science programs.
 - **[Business editions](#business-editions):** a small-business server and its workstations, after the stereo edition.
 
