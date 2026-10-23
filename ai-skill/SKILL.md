@@ -132,8 +132,9 @@ The detail is in [CONTRIBUTING.md](../CONTRIBUTING.md) and in the packaging skil
 This is the general skill.
 With time, smaller and more targeted skills will exist for each part of the work, and this file will point to them.
 
-- **sparky-stereo-packaging** (exists today, kept in a private repository, so there is no link): how to build, sign and ship anything for Sparky Stereo OS. It covers Sparky-style tools, themes and meta packages in Paweł's formula, rebuilt upstream packages (kernel, NVIDIA open modules, KWin and KScreen, PipeWire plugins), APTus entries, the apt repository, and packing the ISO. If a task touches a package, a control file, a copyright file, a script header, an APTus entry, a repository index or an ISO, use it if you have it. If you do not, ask the human for it before you guess.
-- More will follow, for example for the kernel and driver work, the apt repository, translations (English first, then Polish, then pt-BR, then the others; Polish must be idiomatic and is approved by Paweł), and release texts.
+- **[edition-packaging](https://github.com/Sparky-OS/sparky-stereo-os/tree/main/skills/edition-packaging)**: how to build, sign and ship anything for Sparky Stereo OS. It covers provenance and Paweł's formula for Sparky-style tools, themes and meta packages, rebuilt upstream packages (kernel, NVIDIA open modules, KWin and KScreen, PipeWire plugins), APTus entries, the apt repository and its publication, and packing the ISO. If a task touches a package, a control file, a copyright file, a script header, an APTus entry, a repository index or an ISO, read it first.
+- **[The other skills of Sparky Stereo OS](https://github.com/Sparky-OS/sparky-stereo-os/tree/main/skills)**, among them the kernel and driver work (`drivers`); start with `sparky-stereo`.
+- More will follow, for example for translations (English first, then Polish, then pt-BR, then the others; Polish must be idiomatic and is approved by Paweł) and release texts.
 
 ## Being honest about it
 
