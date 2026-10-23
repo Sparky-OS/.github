@@ -31,6 +31,13 @@ Sign up in your language: [🇨🇦](https://github.com/Sparky-OS/sparky-stereo-
 | <a href="https://github.com/danielcamposramos"><img src="https://github.com/danielcamposramos.png?size=96" width="96" alt="Daniel Ramos"></a> | **Daniel Ramos (Capitain Jack)**<br>Electrical engineer, builds the stereo edition and the business editions.<br>[![Follow Daniel](https://img.shields.io/badge/Follow-danielcamposramos-2777AD?style=flat-square&logo=github)](https://github.com/danielcamposramos) |
 | <a href="https://github.com/pavroo"><img src="https://github.com/pavroo.png?size=96" width="96" alt="Paweł Pijanowski"></a> | **Paweł "pavroo" Pijanowski**<br>Creator of SparkyLinux, whose tools and releases everything here builds on.<br>[![Follow Paweł](https://img.shields.io/badge/Follow-pavroo-2777AD?style=flat-square&logo=github)](https://github.com/pavroo) |
 
+**Package maintainers**, each with full rights over their own repository here:
+
+| | |
+| --- | --- |
+| <a href="https://github.com/effcol"><img src="https://github.com/effcol.png?size=96" width="96" alt="Eff"></a> | **Eff (effcol)**<br>Maintains [wiz3D](https://github.com/Sparky-OS/wiz3D), the universal stereoscopic 3D wrapper for DirectX, OpenGL, AMD HD3D and NVIDIA 3D Vision, based on iZ3D.<br>[![Follow Eff](https://img.shields.io/badge/Follow-effcol-2777AD?style=flat-square&logo=github)](https://github.com/effcol) |
+| <a href="https://github.com/halverneus"><img src="https://github.com/halverneus.png?size=96" width="96" alt="Jeromy Streets"></a> | **Jeromy Streets (halverneus)**<br>Created and maintains [org.kde.video](https://github.com/Sparky-OS/org.kde.video), the video wallpaper and lock screen for KDE Plasma.<br>[![Follow Jeromy](https://img.shields.io/badge/Follow-halverneus-2777AD?style=flat-square&logo=github)](https://github.com/halverneus) |
+
 ## Sparky Stereo OS
 
 **Sparky Stereo OS 9 "Mashtabba", based on Debian 14 "Forky".**
