@@ -7,22 +7,26 @@
 # Sparky-OS
 
 **Create and explore in 3D on the screen you already have: paint, edit photos and video, study molecules and globes, then watch films and play games.**
-A 3D TV works, and so does any ordinary monitor with cheap red-cyan glasses.
+It is made for every kind of 3D screen: 3D TVs and projectors, VR headsets, glasses-free 3D displays, and any monitor with red-cyan glasses.
+On a plain 2D monitor the same desktop works without any change.
 This is where it is built: Sparky Stereo OS, Daniel Ramos's edition of SparkyLinux (by Paweł "pavroo" Pijanowski), a Linux system with the KDE Plasma desktop.
+
+**Lighter on your machine and on the planet:** every package ships without the comments and notes that programs never read, so the same work takes less processing, less energy and less wear.
+[Measured](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/lean-code-packages.md#why-it-matters): reading the C++ headers takes 2 to 4% less work than on Debian, with nothing lost.
 
 <a href="https://github.com/Sparky-OS/sparky-stereo-os#seen-in-3d"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/doom-2016-in-a-window-anaglyph.jpg" width="49%" alt="DOOM (2016) in a window, in 3D, with the flat Plasma panel below it (red-cyan anaglyph)"></a> <a href="https://github.com/Sparky-OS/sparky-stereo-os#seen-in-3d"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/marble-globe-anaglyph.jpg" width="49%" alt="Marble's globe in front of the stars, in 3D (red-cyan anaglyph)"></a>
 
 *Red-cyan glasses show these in 3D.*
 
-**In development:** the [Flat Headset development APK and matching PC update instructions](https://github.com/Sparky-OS/flat-headset/tree/main/apk) are available, and a developer ISO for testers now starts on new PCs with Secure Boot on, on older BIOS PCs and on 32-bit UEFI machines; the final stereo edition ISO is still being prepared.
+**Status: beta 1, for testers.** Tested on 3D TVs, on ordinary monitors with red-cyan glasses and on an Android phone in an inexpensive viewer; glasses-free displays and standalone headsets are in progress.
 
 - **[Sparky Stereo OS](https://github.com/Sparky-OS/sparky-stereo-os):** what it does for watching, playing, creating and developing, and how it is built.
 - **[Illustrated architecture and repository guide](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/architectural-synthesis.md):** the display pipeline, desktop depth, media and system components, with sources, implementation status and an [infographic with a text version](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/architecture-infographic.md); adapted from Daniel's Gemini / NotebookLM research.
-- **[Our forks](#repositories):** the programs we change for 3D, from KDE and the Linux kernel to video players and science programs.
-- **[Business editions](#business-editions):** a small-business server and its workstations, after the stereo edition.
+- **[Our forks](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#repositories):** the programs we change for 3D, from KDE and the Linux kernel to video players and science programs.
+- **[Business editions](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#business-editions):** a small-business server and its workstations, after the stereo edition.
 
-**Next step: tell us about your 3D gear** and hear first when it is ready.
-Sign up in your language: [🇨🇦](https://github.com/Sparky-OS/sparky-stereo-os/issues/26) [🇧🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/25) [🇵🇱](https://github.com/Sparky-OS/sparky-stereo-os/issues/27) [🇫🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/80) [🇯🇵](https://github.com/Sparky-OS/sparky-stereo-os/issues/81) [🇰🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/83) [🇨🇳](https://github.com/Sparky-OS/sparky-stereo-os/issues/84) [🇭🇰](https://github.com/Sparky-OS/sparky-stereo-os/issues/85)
+**Next step: try it on your Windows PC from a USB stick, without installing anything:** [one page, ten steps](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/guides/try-on-windows.en.md).
+Ask for the download and tell us about your 3D gear, in your language: [🇨🇦](https://github.com/Sparky-OS/sparky-stereo-os/issues/26) [🇧🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/25) [🇵🇱](https://github.com/Sparky-OS/sparky-stereo-os/issues/27) [🇫🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/80) [🇩🇪](https://github.com/Sparky-OS/sparky-stereo-os/issues/153) [🇯🇵](https://github.com/Sparky-OS/sparky-stereo-os/issues/81) [🇰🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/83) [🇨🇳](https://github.com/Sparky-OS/sparky-stereo-os/issues/84) [🇭🇰](https://github.com/Sparky-OS/sparky-stereo-os/issues/85)
 
 ## People
 
@@ -42,102 +46,25 @@ Sign up in your language: [🇨🇦](https://github.com/Sparky-OS/sparky-stereo-
 
 **Sparky Stereo OS 9 "Mashtabba", based on Debian 14 "Forky".**
 It is Daniel Ramos's edition of SparkyLinux (by Paweł "pavroo" Pijanowski), with stereo 3D built in from the kernel to the desktop.
-Mashtabba is "the Twins", the Babylonian name of the star pair that Greeks later called Castor and Pollux.
-Paweł names each Sparky generation after a sky object that is also a myth, and a twin pair fits a stereo picture.
-
-**What is built:**
-- **3D modes in the display settings:** a 3D TV's own modes are listed and labelled beside the others, and the desktop shows in both eyes.
-- **3D in a window or full screen:** a program or a game hands the desktop both eyes, and each eye gets its own picture, while the rest of the desktop stays flat.
-- **Players and games:** 3D video in Haruna, VLC, mpv and more, and Half-Life 2 with its menus in both eyes.
-- **Photos and pictures:** 3D photos in Gwenview, digiKam and KolourPaint, and one shared stereo layer for every picture viewer.
-- **A kernel tuned for play:** Linux 7.3 with our stereo patches. Its new scheduler raised a game's lowest frame rate from 4 to 29 fps on an older CPU in its author's own test ([the numbers](https://lore.kernel.org/all/20260511113104.563854162@infradead.org/)), and it lets AMD cards with little video memory keep a game's memory on the card ([the change](https://pixelcluster.dev/VRAM-Mgmt-fixed/)).
-- **3D from switch-on:** the boot splash and the login screen follow the 3D mode you saved for your main screen.
-- **Stereo wallpapers and screensavers:** a 3D photo as the background keeps its own depth, and the classic savers run in real 3D.
-- **Drivers:** the NVIDIA open kernel modules with our patches.
-- **Brazilian certificates:** sparky-ca for ICP-Brasil roots, tokens and smart cards.
-
-**Coming:** the APTus Stereo AppCenter's stereo section on top of Paweł's APTus AppCenter, AMD's closed driver as a choice, and 3D video wallpapers.
-**Merged upstream:** Universal Media Server keeps 3D video declared through transcoding, so televisions switch to 3D on their own; HandBrake, MKVToolNix and mpv took our 3D fixes too ([the list](https://github.com/Sparky-OS/sparky-stereo-os#merged-outside-sparky-stereo)).
-
-**Status: in development.**
-The packages are published in our signed repository, and a developer ISO goes to testers; the first public ISO is being prepared.
-Nothing here is a release yet.
+What is built, what is coming and what was merged upstream: [in detail](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#sparky-stereo-os).
 
 ## Business editions
 
 It started in 2018 with a small-business server and workstation line.
 Server and client editions come after the stereo edition.
-Their first target is Brazil's justice system, lawyers and the financial world, with PJeOffice and certificates as must-haves.
-The server side is a Samba 4 Active Directory domain controller installer with backup, time sync and service supervision.
-The client side joins a workstation to that domain.
-The code in the repositories below is from the Debian 9 and 10 era.
-It will be ported to Debian 14 after the stereo edition.
+[In detail](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#business-editions)
 
 ## Repositories
 
-**Stereo edition**
-
 [sparky-stereo-os](https://github.com/Sparky-OS/sparky-stereo-os) holds the edition's documents, skills and tools.
-Most forks below are the stereo version of one program, forked from its upstream project, with our changes on a stereo branch.
-
-| Area | Forks |
-| --- | --- |
-| Our own libraries | [stereo-layer](https://github.com/Sparky-OS/stereo-layer) (reads every stereo mark, for pictures and video), [libstereo-declare](https://github.com/Sparky-OS/libstereo-declare) (how a program tells the desktop it shows 3D) |
-| Desktop and display | [kwin](https://github.com/Sparky-OS/kwin), [kscreen](https://github.com/Sparky-OS/kscreen), [libkscreen](https://github.com/Sparky-OS/libkscreen), [plasma-wayland-protocols](https://github.com/Sparky-OS/plasma-wayland-protocols), [spectacle](https://github.com/Sparky-OS/spectacle), [kimageformats](https://github.com/Sparky-OS/kimageformats), [org.kde.video](https://github.com/Sparky-OS/org.kde.video), [plasma-stereo-wallpaper](https://github.com/Sparky-OS/plasma-stereo-wallpaper), [plasma-welcome](https://github.com/Sparky-OS/plasma-welcome), [qtbase](https://github.com/Sparky-OS/qtbase), [qtdeclarative](https://github.com/Sparky-OS/qtdeclarative), [qtwayland](https://github.com/Sparky-OS/qtwayland), [egl-wayland](https://github.com/Sparky-OS/egl-wayland), [calamares](https://github.com/Sparky-OS/calamares), [linux](https://github.com/Sparky-OS/linux), [qemu](https://github.com/Sparky-OS/qemu) |
-| Video and sound | [mpv](https://github.com/Sparky-OS/mpv), [vlc](https://github.com/Sparky-OS/vlc), [bino](https://github.com/Sparky-OS/bino), [sview](https://github.com/Sparky-OS/sview), [mplayer](https://github.com/Sparky-OS/mplayer), [HandBrake](https://github.com/Sparky-OS/HandBrake), [PeerTube](https://github.com/Sparky-OS/PeerTube), [UniversalMediaServer](https://github.com/Sparky-OS/UniversalMediaServer), [mlt](https://github.com/Sparky-OS/mlt), [qtmultimedia](https://github.com/Sparky-OS/qtmultimedia), [pipewire](https://github.com/Sparky-OS/pipewire), [wireplumber](https://github.com/Sparky-OS/wireplumber), [plasma-pa](https://github.com/Sparky-OS/plasma-pa), [pulseaudio-qt](https://github.com/Sparky-OS/pulseaudio-qt) |
-| Science, CAD and 3D viewers | [openscad](https://github.com/Sparky-OS/openscad), [grass](https://github.com/Sparky-OS/grass), [octave](https://github.com/Sparky-OS/octave), [netgen](https://github.com/Sparky-OS/netgen), [f3d](https://github.com/Sparky-OS/f3d), [avogadrolibs](https://github.com/Sparky-OS/avogadrolibs) |
-| Games and Windows programs | [proton-wine](https://github.com/Sparky-OS/proton-wine), [wine](https://github.com/Sparky-OS/wine), [dxvk](https://github.com/Sparky-OS/dxvk), [vkd3d-proton](https://github.com/Sparky-OS/vkd3d-proton), [glfw](https://github.com/Sparky-OS/glfw), [SDL](https://github.com/Sparky-OS/SDL), [lutris](https://github.com/Sparky-OS/lutris), [source-sdk-2013](https://github.com/Sparky-OS/source-sdk-2013), [KHARVOX](https://github.com/Sparky-OS/KHARVOX), [REFramework](https://github.com/Sparky-OS/REFramework), [UEVR](https://github.com/Sparky-OS/UEVR), [uuvr](https://github.com/Sparky-OS/uuvr) |
-| Simulators | [flightgear](https://github.com/Sparky-OS/flightgear), [simgear](https://github.com/Sparky-OS/simgear), [OpenSceneGraph](https://github.com/Sparky-OS/OpenSceneGraph), [torcs](https://github.com/Sparky-OS/torcs), [plib](https://github.com/Sparky-OS/plib), [speed-dreams-code](https://github.com/Sparky-OS/speed-dreams-code), [freeglut](https://github.com/Sparky-OS/freeglut), [fltk](https://github.com/Sparky-OS/fltk) |
-| Pictures | [PhotoGIMP](https://github.com/Sparky-OS/PhotoGIMP), [svgstereo](https://github.com/Sparky-OS/svgstereo), [stereo-create](https://github.com/Sparky-OS/stereo-create), [variety](https://github.com/Sparky-OS/variety) |
-| Web | [waterfox-stereo](https://github.com/Sparky-OS/waterfox-stereo), [waterfox](https://github.com/Sparky-OS/waterfox) |
-| VR headsets and 3D displays | [ALVR](https://github.com/Sparky-OS/ALVR), [WiVRn](https://github.com/Sparky-OS/WiVRn), [PhoneVR](https://github.com/Sparky-OS/PhoneVR), [cardboard](https://github.com/Sparky-OS/cardboard), [OpenVR-ArduinoHMD](https://github.com/Sparky-OS/OpenVR-ArduinoHMD), [foottrollersupport](https://github.com/Sparky-OS/foottrollersupport), [displayxr-packaging](https://github.com/Sparky-OS/displayxr-packaging), [displayxr-kwin-audit](https://github.com/Sparky-OS/displayxr-kwin-audit) |
-| Phones as 3D screens (planned) | [flat-headset](https://github.com/Sparky-OS/flat-headset), [stereodroid](https://github.com/Sparky-OS/stereodroid) |
-| App center | [sparky-aptus-stereo-appcenter](https://github.com/Sparky-OS/sparky-aptus-stereo-appcenter): a fork of Paweł's APTus AppCenter that adds the stereo section and leaves the original untouched |
-
-The NVIDIA open kernel modules fork for stereo output stays in Daniel's account: [open-gpu-kernel-modules](https://github.com/danielcamposramos/open-gpu-kernel-modules).
-
-**Business editions**
-
-| Repository | What it is |
-| --- | --- |
-| [sparky-server](https://github.com/Sparky-OS/sparky-server) | The post-install configuration dialog for the server edition. |
-| [sparky-ad-server](https://github.com/Sparky-OS/sparky-ad-server) | Installer for a Samba 4 Active Directory domain controller. |
-| [sparky-ad-client](https://github.com/Sparky-OS/sparky-ad-client) | Joins a workstation to an Active Directory domain, plus a service manager. |
-| [sparky-ntp-server](https://github.com/Sparky-OS/sparky-ntp-server) | Time sync by country over the WAN, and a time server for the LAN. |
-| [sparky-server-run](https://github.com/Sparky-OS/sparky-server-run) | Checks and starts missing services. |
-| [sparky-meta-server](https://github.com/Sparky-OS/sparky-meta-server) | Meta package that pulls in the server prerequisites. |
-| [sparky-server-doc](https://github.com/Sparky-OS/sparky-server-doc) | Documentation and notes for the small-business server. |
-
-**Tools and artwork**
-
-| Repository | What it is |
-| --- | --- |
-| [sparky-beep](https://github.com/Sparky-OS/sparky-beep) | Sound announcements for running services, with Debian packaging. |
-| [sparky-ca](https://github.com/Sparky-OS/sparky-ca) | A window to install CA certificates into the system, a fork of Paweł's tool. |
-| [sparky-stereo-os-build](https://github.com/Sparky-OS/sparky-stereo-os-build) | The recipes: kernel series, packages, the ISO and the repository tools. |
-| [glasses-keeper](https://github.com/Sparky-OS/glasses-keeper) | Keeps USB-C 3D glasses (the XREAL One series) in full side by side on Windows, with a checklist and a log. |
-| [stereo3ddemo](https://github.com/Sparky-OS/stereo3ddemo) | KDAB's stereo 3D demonstrator, on the edition's stereo path. |
-| [vibe](https://github.com/Sparky-OS/vibe) | Speech transcription on your own computer. |
-| [SparkyBlack](https://github.com/Sparky-OS/SparkyBlack) | The Sparky black KDE theme, with SDDM and Plymouth themes. |
-
-## Related work
-
-- [awesome-stereoscopy](https://github.com/danielcamposramos/awesome-stereoscopy): a CC0 list of stereoscopic 3D tools and evidence.
-- [awesome-linux-hdr](https://github.com/danielcamposramos/awesome-linux-hdr): a CC0 map of HDR and deep-colour support on Linux.
-- [awesome-vr](https://github.com/danielcamposramos/awesome-vr): a CC0 list on virtual reality: headsets, open runtimes, standards, media formats, comfort and accessibility.
-- [sony-bravia-linux](https://github.com/danielcamposramos/sony-bravia-linux): stereoscopic playback and HDMI work on pre-Android BRAVIA televisions.
-- [source-sdk-2013](https://github.com/danielcamposramos/source-sdk-2013): the stereo fork of Valve's Source SDK.
-- Stereo and display forks: [linux](https://github.com/danielcamposramos/linux), [vlc](https://github.com/danielcamposramos/vlc), [mpv](https://github.com/danielcamposramos/mpv), [plasma-wayland-protocols](https://github.com/danielcamposramos/plasma-wayland-protocols), [gamescope](https://github.com/danielcamposramos/gamescope).
-- [Daniel's profile](https://github.com/danielcamposramos) for everything else.
+Every fork by area, the business editions' repositories, the tools and the artwork: [in detail](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#repositories).
+<a id="related-work"></a>Daniel's open lists and related forks: [related work](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#related-work).
 
 ## How this relates to SparkyLinux
 
 SparkyLinux is Paweł Pijanowski's distribution, and everything here builds on it.
 Sparky Stereo OS is an edition of SparkyLinux, not a replacement for it.
 Sparky's own tools, repositories and release names stay Paweł's, and our packages depend on them rather than copy them.
-Where we change something upstream, we say so and send it to [SparkyLinux](https://github.com/sparkylinux) when it fits.
-Daniel has volunteered with SparkyLinux since December 2018, with Bash scripting, artwork and Portuguese-speaking support.
+[In detail](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#how-this-relates-to-sparkylinux)
 
 [SparkyLinux](https://sparkylinux.org) · [Donate to SparkyLinux](https://sparkylinux.org/donate/) · [github.com/sparkylinux](https://github.com/sparkylinux) · [Daniel on GitHub](https://github.com/danielcamposramos) · [Sponsor Daniel](https://github.com/sponsors/danielcamposramos)
-
-Most repositories are GPL-3.0, and the ones that still lack a licence file are getting one.
