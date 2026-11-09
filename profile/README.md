@@ -12,7 +12,7 @@ On a plain 2D monitor the same desktop works without any change.
 This is where it is built: Sparky Stereo OS, Daniel Ramos's edition of SparkyLinux (by Paweł "pavroo" Pijanowski), a Linux system with the KDE Plasma desktop.
 
 **Lighter on your machine and on the planet:** every package ships without the comments and notes that programs never read, so the same work takes less processing, less energy and less wear.
-[Measured](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/lean-code-packages.md#why-it-matters): reading the C++ headers takes 2 to 4% less work than on Debian, with nothing lost.
+[Measured](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/lean-code-packages.md#why-it-matters) on a 2016 laptop, preparing a program for the compiler takes 2 to 4% less work than with the same files unstripped, and nothing is lost.
 
 <a href="https://github.com/Sparky-OS/sparky-stereo-os#seen-in-3d"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/doom-2016-in-a-window-anaglyph.jpg" width="49%" alt="DOOM (2016) in a window, in 3D, with the flat Plasma panel below it (red-cyan anaglyph)"></a> <a href="https://github.com/Sparky-OS/sparky-stereo-os#seen-in-3d"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/marble-globe-anaglyph.jpg" width="49%" alt="Marble's globe in front of the stars, in 3D (red-cyan anaglyph)"></a>
 
