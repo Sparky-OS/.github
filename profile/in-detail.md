@@ -59,7 +59,8 @@ Most forks below are the stereo version of one program, forked from its upstream
 | Pictures | [PhotoGIMP](https://github.com/Sparky-OS/PhotoGIMP), [svgstereo](https://github.com/Sparky-OS/svgstereo), [stereo-create](https://github.com/Sparky-OS/stereo-create), [variety](https://github.com/Sparky-OS/variety) |
 | Web | [waterfox-stereo](https://github.com/Sparky-OS/waterfox-stereo), [waterfox](https://github.com/Sparky-OS/waterfox) |
 | VR headsets and 3D displays | [ALVR](https://github.com/Sparky-OS/ALVR), [WiVRn](https://github.com/Sparky-OS/WiVRn), [PhoneVR](https://github.com/Sparky-OS/PhoneVR), [cardboard](https://github.com/Sparky-OS/cardboard), [OpenVR-ArduinoHMD](https://github.com/Sparky-OS/OpenVR-ArduinoHMD), [foottrollersupport](https://github.com/Sparky-OS/foottrollersupport), [displayxr-packaging](https://github.com/Sparky-OS/displayxr-packaging), [displayxr-kwin-audit](https://github.com/Sparky-OS/displayxr-kwin-audit) |
-| Phones as 3D screens (planned) | [flat-headset](https://github.com/Sparky-OS/flat-headset), [stereodroid](https://github.com/Sparky-OS/stereodroid) |
+| Phones as 3D screens | [flat-headset](https://github.com/Sparky-OS/flat-headset) |
+| Phones as VR devices (in development) | [stereodroid](https://github.com/Sparky-OS/stereodroid) |
 | App center | [sparky-aptus-stereo-appcenter](https://github.com/Sparky-OS/sparky-aptus-stereo-appcenter): a fork of Paweł's APTus AppCenter that adds the stereo section and leaves the original untouched |
 
 The NVIDIA open kernel modules fork for stereo output stays in Daniel's account: [open-gpu-kernel-modules](https://github.com/danielcamposramos/open-gpu-kernel-modules).
