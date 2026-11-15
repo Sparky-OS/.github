@@ -24,7 +24,7 @@ Paweł names each Sparky generation after a sky object that is also a myth, and 
 - **Brazilian certificates:** sparky-ca for ICP-Brasil roots, tokens and smart cards.
 
 **Coming:** the APTus Stereo AppCenter's stereo section on top of Paweł's APTus AppCenter, AMD's closed driver as a choice, and 3D video wallpapers.
-**Planned:** scanning, with [Spirula Studio](https://github.com/Sparky-OS/spirula-studio): a video of an object or a place becomes a 3D model you can walk around. The edition does not ship it yet, and it does not show its models with one view per eye yet.
+**Scan** with [Spirula Studio](https://github.com/Sparky-OS/spirula-studio): a video of an object or a place becomes a 3D model you can walk around, shown in 3D with one view per eye.
 **Merged upstream:** Universal Media Server keeps 3D video declared through transcoding, so televisions switch to 3D on their own; HandBrake, MKVToolNix and mpv took our 3D fixes too ([the list](https://github.com/Sparky-OS/sparky-stereo-os#merged-outside-sparky-stereo)).
 
 **Status: in development.**
