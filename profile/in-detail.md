@@ -1,9 +1,14 @@
 # Sparky-OS in detail
 
-**For** readers who want the whole picture: what is built, the business editions, every repository by area, related work, and how this relates to SparkyLinux.
+**For** readers who want the whole picture: where SparkyOS onUSB lives, what is built, the business editions, every repository by area, related work, and how this relates to SparkyLinux.
 [Back to the profile](https://github.com/Sparky-OS)
 
-**In development:** the [Flat Headset development APK and matching PC update instructions](https://github.com/Sparky-OS/flat-headset/tree/main/apk) are available, and a developer ISO for testers now starts on new PCs with Secure Boot on, on older BIOS PCs and on 32-bit UEFI machines; the final stereo edition ISO is still being prepared.
+**In development:** the [Flat Headset development APK and matching PC update instructions](https://github.com/Sparky-OS/flat-headset/tree/main/apk) are available, and the developer ISO, sent to developers on request, starts on new PCs with Secure Boot on, on older BIOS PCs and on 32-bit UEFI machines; the final stereo edition ISO is still being prepared.
+
+## SparkyOS onUSB
+
+SparkyOS onUSB is Paweł "pavroo" Pijanowski's portable system, by him and the SparkyLinux team.
+Its home has the downloads, the how-to pages and the news: [sparkyos.sparkylinux.org](https://sparkyos.sparkylinux.org/).
 
 ## Sparky Stereo OS
 
@@ -11,6 +16,12 @@
 It is Daniel Ramos's edition of SparkyLinux (by Paweł "pavroo" Pijanowski), with stereo 3D built in from the kernel to the desktop.
 Mashtabba is "the Twins", the Babylonian name of the star pair that Greeks later called Castor and Pollux.
 Paweł names each Sparky generation after a sky object that is also a myth, and a twin pair fits a stereo picture.
+[The edition's own page](https://github.com/Sparky-OS/sparky-stereo-os): what it does for watching, playing, creating and developing, and how it is built.
+
+<a id="lighter-on-your-machine"></a>**Lighter on your machine and on the planet:** every package ships without the comments and notes that programs never read, so the same work takes less processing, less energy and less wear.
+[Measured](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/lean-code-packages.md#why-it-matters) on a 2016 laptop, preparing a program for the compiler takes 2 to 4% less work than with the same files unstripped, and nothing is lost.
+
+<a id="illustrated-architecture-and-repository-guide"></a>**[Illustrated architecture and repository guide](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/architectural-synthesis.md):** the display pipeline, desktop depth, media and system components, with sources, implementation status and an [infographic with a text version](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/architecture-infographic.md); adapted from Daniel's Gemini / NotebookLM research.
 
 **What is built:**
 - **3D modes in the display settings:** a 3D TV's own modes are listed and labelled beside the others, and the desktop shows in both eyes.
@@ -28,7 +39,7 @@ Paweł names each Sparky generation after a sky object that is also a myth, and 
 **Merged upstream:** Universal Media Server keeps 3D video declared through transcoding, so televisions switch to 3D on their own; HandBrake, MKVToolNix and mpv took our 3D fixes too ([the list](https://github.com/Sparky-OS/sparky-stereo-os#merged-outside-sparky-stereo)).
 
 **Status: in development.**
-The packages are published in our signed repository, and a developer ISO goes to testers; the first public ISO is being prepared.
+The packages are published in our signed repository, and the developer ISO goes to developers on request; the first public ISO is being prepared.
 Nothing here is a release yet.
 
 ## Business editions
@@ -46,6 +57,7 @@ It will be ported to Debian 14 after the stereo edition.
 **Stereo edition**
 
 [sparky-stereo-os](https://github.com/Sparky-OS/sparky-stereo-os) holds the edition's documents, skills and tools.
+<a id="our-forks"></a>**Our forks** are the programs we change for 3D, from KDE and the Linux kernel to video players and science programs.
 Most forks below are the stereo version of one program, forked from its upstream project, with our changes on a stereo branch.
 
 | Area | Forks |
@@ -53,7 +65,7 @@ Most forks below are the stereo version of one program, forked from its upstream
 | Our own libraries | [stereo-layer](https://github.com/Sparky-OS/stereo-layer) (reads every stereo mark, for pictures and video), [libstereo-declare](https://github.com/Sparky-OS/libstereo-declare) (how a program tells the desktop it shows 3D) |
 | Desktop and display | [kwin](https://github.com/Sparky-OS/kwin), [kscreen](https://github.com/Sparky-OS/kscreen), [libkscreen](https://github.com/Sparky-OS/libkscreen), [plasma-wayland-protocols](https://github.com/Sparky-OS/plasma-wayland-protocols), [spectacle](https://github.com/Sparky-OS/spectacle), [kimageformats](https://github.com/Sparky-OS/kimageformats), [org.kde.video](https://github.com/Sparky-OS/org.kde.video), [plasma-stereo-wallpaper](https://github.com/Sparky-OS/plasma-stereo-wallpaper), [plasma-welcome](https://github.com/Sparky-OS/plasma-welcome), [qtbase](https://github.com/Sparky-OS/qtbase), [qtdeclarative](https://github.com/Sparky-OS/qtdeclarative), [qtwayland](https://github.com/Sparky-OS/qtwayland), [egl-wayland](https://github.com/Sparky-OS/egl-wayland), [calamares](https://github.com/Sparky-OS/calamares), [linux](https://github.com/Sparky-OS/linux), [qemu](https://github.com/Sparky-OS/qemu) |
 | Video and sound | [mpv](https://github.com/Sparky-OS/mpv), [vlc](https://github.com/Sparky-OS/vlc), [bino](https://github.com/Sparky-OS/bino), [sview](https://github.com/Sparky-OS/sview), [mplayer](https://github.com/Sparky-OS/mplayer), [HandBrake](https://github.com/Sparky-OS/HandBrake), [PeerTube](https://github.com/Sparky-OS/PeerTube), [UniversalMediaServer](https://github.com/Sparky-OS/UniversalMediaServer), [mlt](https://github.com/Sparky-OS/mlt), [qtmultimedia](https://github.com/Sparky-OS/qtmultimedia), [pipewire](https://github.com/Sparky-OS/pipewire), [wireplumber](https://github.com/Sparky-OS/wireplumber), [plasma-pa](https://github.com/Sparky-OS/plasma-pa), [pulseaudio-qt](https://github.com/Sparky-OS/pulseaudio-qt) |
-| Science, CAD and 3D viewers | [openscad](https://github.com/Sparky-OS/openscad), [grass](https://github.com/Sparky-OS/grass), [octave](https://github.com/Sparky-OS/octave), [netgen](https://github.com/Sparky-OS/netgen), [f3d](https://github.com/Sparky-OS/f3d), [avogadrolibs](https://github.com/Sparky-OS/avogadrolibs), [spirula-studio](https://github.com/Sparky-OS/spirula-studio) (scanning, planned) |
+| Science, CAD and 3D viewers | [openscad](https://github.com/Sparky-OS/openscad), [grass](https://github.com/Sparky-OS/grass), [octave](https://github.com/Sparky-OS/octave), [netgen](https://github.com/Sparky-OS/netgen), [f3d](https://github.com/Sparky-OS/f3d), [avogadrolibs](https://github.com/Sparky-OS/avogadrolibs), [spirula-studio](https://github.com/Sparky-OS/spirula-studio) (scanning) |
 | Games and Windows programs | [proton-wine](https://github.com/Sparky-OS/proton-wine), [wine](https://github.com/Sparky-OS/wine), [dxvk](https://github.com/Sparky-OS/dxvk), [vkd3d-proton](https://github.com/Sparky-OS/vkd3d-proton), [glfw](https://github.com/Sparky-OS/glfw), [SDL](https://github.com/Sparky-OS/SDL), [lutris](https://github.com/Sparky-OS/lutris), [source-sdk-2013](https://github.com/Sparky-OS/source-sdk-2013), [KHARVOX](https://github.com/Sparky-OS/KHARVOX), [REFramework](https://github.com/Sparky-OS/REFramework), [UEVR](https://github.com/Sparky-OS/UEVR), [uuvr](https://github.com/Sparky-OS/uuvr) |
 | Simulators | [flightgear](https://github.com/Sparky-OS/flightgear), [simgear](https://github.com/Sparky-OS/simgear), [OpenSceneGraph](https://github.com/Sparky-OS/OpenSceneGraph), [torcs](https://github.com/Sparky-OS/torcs), [plib](https://github.com/Sparky-OS/plib), [speed-dreams-code](https://github.com/Sparky-OS/speed-dreams-code), [freeglut](https://github.com/Sparky-OS/freeglut), [fltk](https://github.com/Sparky-OS/fltk) |
 | Pictures | [PhotoGIMP](https://github.com/Sparky-OS/PhotoGIMP), [svgstereo](https://github.com/Sparky-OS/svgstereo), [stereo-create](https://github.com/Sparky-OS/stereo-create), [variety](https://github.com/Sparky-OS/variety) |
@@ -101,7 +113,7 @@ The NVIDIA open kernel modules fork for stereo output stays in Daniel's account:
 
 ## How this relates to SparkyLinux
 
-SparkyLinux is Paweł Pijanowski's distribution, and everything here builds on it.
+SparkyLinux is Paweł Pijanowski's distribution, and the stereo and business editions build on it.
 Sparky Stereo OS is an edition of SparkyLinux, not a replacement for it.
 Sparky's own tools, repositories and release names stay Paweł's, and our packages depend on them rather than copy them.
 Where we change something upstream, we say so and send it to [SparkyLinux](https://github.com/sparkylinux) when it fits.

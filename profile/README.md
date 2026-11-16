@@ -1,39 +1,78 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-  <img alt="Sparky-OS: Daniel Ramos's editions of SparkyLinux (by Paweł &quot;pavroo&quot; Pijanowski)" src="./assets/banner-light.svg" width="1200">
+  <img alt="Sparky-OS: SparkyOS onUSB, Sparky Stereo OS and Sparky Business, by Paweł &quot;pavroo&quot; Pijanowski and Daniel Ramos" src="./assets/banner-light.svg" width="1200">
 </picture>
+
+🇨🇦 [English](https://github.com/Sparky-OS) · 🇧🇷 [Português](https://github.com/Sparky-OS/.github/blob/main/profile/README.pt-BR.md) · 🇵🇱 [Polski](https://github.com/Sparky-OS/.github/blob/main/profile/README.pl.md) · 🇫🇷 [Français](https://github.com/Sparky-OS/.github/blob/main/profile/README.fr.md) · 🇩🇪 [Deutsch](https://github.com/Sparky-OS/.github/blob/main/profile/README.de.md) · 🇲🇽 [Español](https://github.com/Sparky-OS/.github/blob/main/profile/README.es.md) · 🇯🇵 [日本語](https://github.com/Sparky-OS/.github/blob/main/profile/README.ja.md) · 🇰🇷 [한국어](https://github.com/Sparky-OS/.github/blob/main/profile/README.ko.md) · 🇨🇳 [简体中文](https://github.com/Sparky-OS/.github/blob/main/profile/README.zh-CN.md) · 🇭🇰 [繁體中文](https://github.com/Sparky-OS/.github/blob/main/profile/README.zh-TW.md)
 
 # Sparky-OS
 
-**Create and explore in 3D on the screen you already have: paint, edit photos and video, study molecules and globes, then watch films and play games.**
+**Three Linux systems that complement each other: one runs from a USB drive you carry, one shows your desktop, films and games in 3D on the screen you already have, and one is for small businesses.**
+Made by Paweł "pavroo" Pijanowski, the creator of SparkyLinux, and Daniel Ramos.
+
+## SparkyOS onUSB
+
+<a href="https://sparkyos.sparkylinux.org/">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/onusb-en-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/onusb-en-light.svg">
+  <img alt="SparkyOS onUSB. Available now. Your whole system on a USB drive: start it on any computer, with your programs and files. Next step: Get it at sparkyos.sparkylinux.org." src="./assets/cards/onusb-en-light.svg" width="100%">
+</picture>
+</a>
+
+The whole system runs from the USB drive and updates like a system installed on a disk; nothing is installed on the computer.
+It comes in two editions, one built on Arch Linux and one on Debian, both with the light Xfce desktop, for 64-bit PCs.
+By Paweł "pavroo" Pijanowski and the SparkyLinux team: [its home page](https://sparkyos.sparkylinux.org/) · [Download](https://sparkyos.sparkylinux.org/download/) · [How-To](https://sparkyos.sparkylinux.org/how-to/)
+
+## Sparky Stereo OS
+
+<a href="https://github.com/Sparky-OS/sparky-stereo-os/issues/26">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/stereo-en-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/stereo-en-light.svg">
+  <img alt="Sparky Stereo OS. In development: developer ISO on request. Create and explore in 3D on the screen you already have. Next step: Ask for the developer ISO." src="./assets/cards/stereo-en-light.svg" width="100%">
+</picture>
+</a>
+
+Paint, edit photos and video, study molecules and globes, then watch films and play games.
 It is made for every kind of 3D screen: 3D TVs and projectors, VR headsets, glasses-free 3D displays, and any monitor with red-cyan glasses.
 On a plain 2D monitor the same desktop works without any change.
-This is where it is built: Sparky Stereo OS, Daniel Ramos's edition of SparkyLinux (by Paweł "pavroo" Pijanowski), a Linux system with the KDE Plasma desktop.
 
-**Lighter on your machine and on the planet:** every package ships without the comments and notes that programs never read, so the same work takes less processing, less energy and less wear.
-[Measured](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/lean-code-packages.md#why-it-matters) on a 2016 laptop, preparing a program for the compiler takes 2 to 4% less work than with the same files unstripped, and nothing is lost.
+<a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/screenshots/README.md#stereo-desktop-the-info-centre-and-the-menu-17-october-2026"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/stereo-info-translucent-anaglyph.jpg" width="99%" alt="The Stereo Desktop in 3D with translucent windows: the application menu and its Multimedia list in front, the Info Centre behind, the weather and system monitor widgets and the Audio Volume pop-up over the Earth wallpaper (red-cyan anaglyph)"></a>
 
-<a href="https://github.com/Sparky-OS/sparky-stereo-os#seen-in-3d"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/doom-2016-in-a-window-anaglyph.jpg" width="49%" alt="DOOM (2016) in a window, in 3D, with the flat Plasma panel below it (red-cyan anaglyph)"></a> <a href="https://github.com/Sparky-OS/sparky-stereo-os#seen-in-3d"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/marble-globe-anaglyph.jpg" width="49%" alt="Marble's globe in front of the stars, in 3D (red-cyan anaglyph)"></a>
+<a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/edition-in-detail.md#seen-in-3d"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/translucent-stereo-desktop-anaglyph.jpg" width="49%" alt="The Stereo Desktop in 3D with translucent windows: Dolphin's Settings menu and its colour-scheme list in front, the glass windows behind stepping back, the system monitor and the wallpaper deepest (red-cyan anaglyph)"></a> <a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/edition-in-detail.md#seen-in-3d"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/stereo-desktop-dialogs-anaglyph.jpg" width="49%" alt="The Stereo Desktop in 3D: Marble's Settings menu and its Panels sub-menu in front of the Marble window, the windows behind stepping back one after another, and Marble's globe in 3D inside its window (red-cyan anaglyph)"></a>
 
-*Red-cyan glasses show these in 3D.*
+*Red-cyan glasses show these in 3D ([more](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/edition-in-detail.md#seen-in-3d)).*
 
-**Status: beta 1, for testers.** Tested on 3D TVs, on ordinary monitors with red-cyan glasses and on an Android phone in an inexpensive viewer; glasses-free displays and standalone headsets are in progress.
+Sparky Stereo OS, Daniel Ramos's edition of SparkyLinux (by Paweł "pavroo" Pijanowski), is a Linux system with a new Stereo KDE Plasma desktop.
+Tested on 3D TVs, on ordinary monitors with red-cyan glasses and on an Android phone in an inexpensive viewer; glasses-free displays and standalone headsets are in progress.
 
-- **[Sparky Stereo OS](https://github.com/Sparky-OS/sparky-stereo-os):** what it does for watching, playing, creating and developing, and how it is built.
-- **[Illustrated architecture and repository guide](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/architectural-synthesis.md):** the display pipeline, desktop depth, media and system components, with sources, implementation status and an [infographic with a text version](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/architecture-infographic.md); adapted from Daniel's Gemini / NotebookLM research.
-- **[Our forks](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#repositories):** the programs we change for 3D, from KDE and the Linux kernel to video players and science programs.
-- **[Business editions](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#business-editions):** a small-business server and its workstations, after the stereo edition.
+**The developer ISO is for developers and is sent on request:** ask for it and tell us about your 3D gear, in your language: [🇨🇦](https://github.com/Sparky-OS/sparky-stereo-os/issues/26) [🇧🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/25) [🇵🇱](https://github.com/Sparky-OS/sparky-stereo-os/issues/27) [🇫🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/80) [🇩🇪](https://github.com/Sparky-OS/sparky-stereo-os/issues/153) [🇲🇽](https://github.com/Sparky-OS/sparky-stereo-os/issues/351) [🇯🇵](https://github.com/Sparky-OS/sparky-stereo-os/issues/81) [🇰🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/83) [🇨🇳](https://github.com/Sparky-OS/sparky-stereo-os/issues/84) [🇭🇰](https://github.com/Sparky-OS/sparky-stereo-os/issues/85)
 
-**Next step: try it on your Windows PC from a USB stick, without installing anything:** [one page, ten steps](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/guides/try-on-windows.en.md).
-Ask for the download and tell us about your 3D gear, in your language: [🇨🇦](https://github.com/Sparky-OS/sparky-stereo-os/issues/26) [🇧🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/25) [🇵🇱](https://github.com/Sparky-OS/sparky-stereo-os/issues/27) [🇫🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/80) [🇩🇪](https://github.com/Sparky-OS/sparky-stereo-os/issues/153) [🇲🇽](https://github.com/Sparky-OS/sparky-stereo-os/issues/351) [🇯🇵](https://github.com/Sparky-OS/sparky-stereo-os/issues/81) [🇰🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/83) [🇨🇳](https://github.com/Sparky-OS/sparky-stereo-os/issues/84) [🇭🇰](https://github.com/Sparky-OS/sparky-stereo-os/issues/85)
+**More:** [the edition](https://github.com/Sparky-OS/sparky-stereo-os) · [a guide to trying it on Windows](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/guides/try-on-windows.en.md) · [what is built, in detail](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#sparky-stereo-os) · [how it is built](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/architectural-synthesis.md) · [our forks](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#repositories)
+
+<a id="business-editions"></a>
+## Sparky Business: server and client
+
+<a href="https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#business-editions">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/business-en-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/business-en-light.svg">
+  <img alt="Sparky Business. Upcoming, after the stereo edition. A small-business server and its workstations. Next step: See what it is and its repositories." src="./assets/cards/business-en-light.svg" width="100%">
+</picture>
+</a>
+
+It started in 2018 with a small-business server and workstation line.
+Its server and client editions, by Daniel Ramos and Paweł Pijanowski, come after the stereo edition.
+[In detail](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#business-editions): what it is and its repositories.
 
 ## People
 
 | | |
 | --- | --- |
-| <a href="https://github.com/danielcamposramos"><img src="https://github.com/danielcamposramos.png?size=96" width="96" alt="Daniel Ramos"></a> | **Daniel Ramos (Capitain Jack)**<br>Electrical engineer, builds the stereo edition and the business editions.<br>[![Follow Daniel](https://img.shields.io/badge/Follow-danielcamposramos-2777AD?style=flat-square&logo=github)](https://github.com/danielcamposramos) [![Sponsor Daniel](https://img.shields.io/badge/Sponsor-danielcamposramos-EA4AAA?style=flat-square&logo=githubsponsors)](https://github.com/sponsors/danielcamposramos) |
-| <a href="https://github.com/pavroo"><img src="https://github.com/pavroo.png?size=96" width="96" alt="Paweł Pijanowski"></a> | **Paweł "pavroo" Pijanowski**<br>Creator of SparkyLinux, whose tools and releases everything here builds on.<br>[![Follow Paweł](https://img.shields.io/badge/Follow-pavroo-2777AD?style=flat-square&logo=github)](https://github.com/pavroo) [![Donate to SparkyLinux](https://img.shields.io/badge/Donate-SparkyLinux-2777AD?style=flat-square)](https://sparkylinux.org/donate/) |
+| <a href="https://github.com/danielcamposramos"><img src="https://github.com/danielcamposramos.png?size=96" width="96" alt="Daniel Ramos"></a> | **Daniel Ramos (Capitain Jack)**<br>Electrical engineer, builds the stereo edition and, with Paweł, the business editions.<br>[![Follow Daniel](https://img.shields.io/badge/Follow-danielcamposramos-2777AD?style=flat-square&logo=github)](https://github.com/danielcamposramos) [![Sponsor Daniel](https://img.shields.io/badge/Sponsor-danielcamposramos-EA4AAA?style=flat-square&logo=githubsponsors)](https://github.com/sponsors/danielcamposramos) |
+| <a href="https://github.com/pavroo"><img src="https://github.com/pavroo.png?size=96" width="96" alt="Paweł Pijanowski"></a> | **Paweł "pavroo" Pijanowski**<br>Creator of SparkyLinux and SparkyOS onUSB; the stereo and business editions build on SparkyLinux's tools and releases.<br>[![Follow Paweł](https://img.shields.io/badge/Follow-pavroo-2777AD?style=flat-square&logo=github)](https://github.com/pavroo) [![Donate to SparkyLinux](https://img.shields.io/badge/Donate-SparkyLinux-2777AD?style=flat-square)](https://sparkylinux.org/donate/) |
 
 **Package maintainers**, each with full rights over their own repository here:
 
@@ -43,18 +82,6 @@ Ask for the download and tell us about your 3D gear, in your language: [🇨🇦
 | <a href="https://github.com/halverneus"><img src="https://github.com/halverneus.png?size=96" width="96" alt="Jeromy Streets"></a> | **Jeromy Streets (halverneus)**<br>Created and maintains [org.kde.video](https://github.com/Sparky-OS/org.kde.video), the video wallpaper and lock screen for KDE Plasma.<br>[![Follow Jeromy](https://img.shields.io/badge/Follow-halverneus-2777AD?style=flat-square&logo=github)](https://github.com/halverneus) |
 | <a href="https://github.com/pedroalbanese"><img src="https://github.com/pedroalbanese.png?size=96" width="96" alt="Pedro F. Albanese"></a> | **Pedro F. Albanese (pedroalbanese)**<br>Maintains [Sparky CA](https://github.com/Sparky-OS/sparky-ca) with Daniel, the tool that installs Brazil's ICP-Brasil certificates and keeps them current, and wrote [e521](https://github.com/pedroalbanese/e521), the library for the Ed521 signatures that one ICP-Brasil root uses.<br>[![Follow Pedro](https://img.shields.io/badge/Follow-pedroalbanese-2777AD?style=flat-square&logo=github)](https://github.com/pedroalbanese) |
 
-## Sparky Stereo OS
-
-**Sparky Stereo OS 9 "Mashtabba", based on Debian 14 "Forky".**
-It is Daniel Ramos's edition of SparkyLinux (by Paweł "pavroo" Pijanowski), with stereo 3D built in from the kernel to the desktop.
-What is built, what is coming and what was merged upstream: [in detail](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#sparky-stereo-os).
-
-## Business editions
-
-It started in 2018 with a small-business server and workstation line.
-Server and client editions come after the stereo edition.
-[In detail](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#business-editions)
-
 ## Repositories
 
 [sparky-stereo-os](https://github.com/Sparky-OS/sparky-stereo-os) holds the edition's documents, skills and tools.
@@ -63,7 +90,7 @@ Every fork by area, the business editions' repositories, the tools and the artwo
 
 ## How this relates to SparkyLinux
 
-SparkyLinux is Paweł Pijanowski's distribution, and everything here builds on it.
+SparkyLinux is Paweł Pijanowski's distribution, and the stereo and business editions build on it.
 Sparky Stereo OS is an edition of SparkyLinux, not a replacement for it.
 Sparky's own tools, repositories and release names stay Paweł's, and our packages depend on them rather than copy them.
 [In detail](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#how-this-relates-to-sparkylinux)
