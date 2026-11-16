@@ -27,17 +27,19 @@ Arch Linuxを基にしたものとDebianを基にしたものの2つのエディ
 
 ## Sparky Stereo OS
 
-<a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/guides/try-on-windows.en.md">
+<a href="https://github.com/Sparky-OS/sparky-stereo-os/issues/81">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/stereo-ja-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/cards/stereo-ja-light.svg">
-  <img alt="Sparky Stereo OS。開発中：テスター向けのベータ1。今ある画面で3Dの制作と探究を。次のステップ：Windows PCで試す（インストール不要）。" src="./assets/cards/stereo-ja-light.svg" width="100%">
+  <img alt="Sparky Stereo OS。開発中：開発者向けISOをご希望の方に。今ある画面で3Dの制作と探究を。次のステップ：開発者向けISOを申し込む。" src="./assets/cards/stereo-ja-light.svg" width="100%">
 </picture>
 </a>
 
 絵を描き、写真や動画を編集し、分子や地球儀を調べ、映画やゲームも楽しめます。
 3Dテレビや3Dプロジェクター、VRヘッドセット、裸眼3Dディスプレイ、赤・シアンの眼鏡を使う普通のモニターなど、あらゆる種類の3D画面のために作られています。
 普通の2Dモニターでは、同じデスクトップが何も変わらずそのまま使えます。
+
+<a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/screenshots/README.md#stereo-desktop-the-info-centre-and-the-menu-17-october-2026"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/stereo-info-translucent-anaglyph.jpg" width="99%" alt="半透明のウィンドウがある3Dのステレオデスクトップ。手前にアプリケーションメニューとその「マルチメディア」の一覧があり、その奥に情報センター、天気とシステムモニタのウィジェット、地球の壁紙の上に「音量」のポップアップがある（赤・シアンのアナグリフ）"></a>
 
 <a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/edition-in-detail.ja.md#seen-in-3d"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/translucent-stereo-desktop-anaglyph.jpg" width="49%" alt="半透明のウィンドウがある3Dのステレオデスクトップ。手前にDolphinの設定メニューとカラースキームの一覧があり、背後の透明なウィンドウは順に奥へ下がり、システムモニタと壁紙が最も奥にある（赤・シアンのアナグリフ）"></a> <a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/edition-in-detail.ja.md#seen-in-3d"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/stereo-desktop-dialogs-anaglyph.jpg" width="49%" alt="3Dのステレオデスクトップ。Marbleのウィンドウの手前にその設定メニューと「パネル」サブメニューがあり、背後のウィンドウは順に奥へ下がり、ウィンドウの中ではMarbleの地球儀が3Dで表示される（赤・シアンのアナグリフ）"></a>
 
@@ -46,10 +48,9 @@ Arch Linuxを基にしたものとDebianを基にしたものの2つのエディ
 Sparky Stereo OSは、Paweł "pavroo" PijanowskiによるSparkyLinuxを基にDaniel Ramosが制作するエディションで、新しいStereo KDE Plasmaデスクトップを備えたLinuxシステムです。
 3Dテレビ、赤・シアンの眼鏡を使った普通のモニター、安価なビューアーに入れたAndroidスマートフォンでテスト済みです。裸眼3Dディスプレイとスタンドアロンヘッドセットは作業中です。
 
-**次のステップ：お使いのWindows PCで、USBメモリから、何もインストールせずに試してみてください：** [1ページ、10ステップ（英語）](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/guides/try-on-windows.en.md)
-<br>ダウンロードの申し込みと、お持ちの3D機器のご連絡は、あなたの言語でどうぞ： [🇨🇦](https://github.com/Sparky-OS/sparky-stereo-os/issues/26) [🇧🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/25) [🇵🇱](https://github.com/Sparky-OS/sparky-stereo-os/issues/27) [🇫🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/80) [🇩🇪](https://github.com/Sparky-OS/sparky-stereo-os/issues/153) [🇲🇽](https://github.com/Sparky-OS/sparky-stereo-os/issues/351) [🇯🇵](https://github.com/Sparky-OS/sparky-stereo-os/issues/81) [🇰🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/83) [🇨🇳](https://github.com/Sparky-OS/sparky-stereo-os/issues/84) [🇭🇰](https://github.com/Sparky-OS/sparky-stereo-os/issues/85)
+**開発者向けISOは開発者のためのもので、ご希望の方にお送りしています：** あなたの言語で申し込み、お持ちの3D機器をお知らせください： [🇨🇦](https://github.com/Sparky-OS/sparky-stereo-os/issues/26) [🇧🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/25) [🇵🇱](https://github.com/Sparky-OS/sparky-stereo-os/issues/27) [🇫🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/80) [🇩🇪](https://github.com/Sparky-OS/sparky-stereo-os/issues/153) [🇲🇽](https://github.com/Sparky-OS/sparky-stereo-os/issues/351) [🇯🇵](https://github.com/Sparky-OS/sparky-stereo-os/issues/81) [🇰🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/83) [🇨🇳](https://github.com/Sparky-OS/sparky-stereo-os/issues/84) [🇭🇰](https://github.com/Sparky-OS/sparky-stereo-os/issues/85)
 
-**詳しく：**[エディション](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/README.ja.md) · 英語：[できていることの詳細](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#sparky-stereo-os) · [仕組み](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/architectural-synthesis.md) · [フォーク一覧](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#repositories)
+**詳しく：**[エディション](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/README.ja.md) · [Windowsで試すためのガイド](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/guides/try-on-windows.en.md)（英語） · 英語：[できていることの詳細](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#sparky-stereo-os) · [仕組み](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/architectural-synthesis.md) · [フォーク一覧](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#repositories)
 
 <a id="business-editions"></a>
 <a id="sparky-business-server-and-client"></a>

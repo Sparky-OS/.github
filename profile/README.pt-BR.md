@@ -27,17 +27,19 @@ De Paweł "pavroo" Pijanowski e da equipe do SparkyLinux (site em inglês): [a p
 
 ## Sparky Stereo OS
 
-<a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/guides/try-on-windows.pt-BR.md">
+<a href="https://github.com/Sparky-OS/sparky-stereo-os/issues/25">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/stereo-pt-BR-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/cards/stereo-pt-BR-light.svg">
-  <img alt="Sparky Stereo OS. Em desenvolvimento: beta 1, para testadores. Crie e explore em 3D na tela que você já tem. Próximo passo: Experimente no Windows, sem instalar." src="./assets/cards/stereo-pt-BR-light.svg" width="100%">
+  <img alt="Sparky Stereo OS. Em desenvolvimento: ISO de dev, sob pedido. Crie e explore em 3D na tela que você já tem. Próximo passo: Peça a ISO para desenvolvedores." src="./assets/cards/stereo-pt-BR-light.svg" width="100%">
 </picture>
 </a>
 
 Pinte, edite fotos e vídeos, estude moléculas e globos, depois assista a filmes e jogue.
 Ele é feito para todo tipo de tela 3D: TVs e projetores 3D, headsets de VR, telas 3D sem óculos e qualquer monitor com óculos vermelho e ciano.
 Num monitor 2D comum, a mesma área de trabalho funciona sem nenhuma mudança.
+
+<a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/screenshots/README.md#stereo-desktop-the-info-centre-and-the-menu-17-october-2026"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/stereo-info-translucent-anaglyph.jpg" width="99%" alt="A área de trabalho estéreo em 3D com janelas translúcidas: o menu de aplicativos e sua lista Multimídia à frente, o Centro de informações atrás, os widgets de clima e do monitor do sistema e a janela Volume do áudio sobre o papel de parede da Terra (anáglifo vermelho e ciano)"></a>
 
 <a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/edition-in-detail.pt-BR.md#seen-in-3d"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/translucent-stereo-desktop-anaglyph.jpg" width="49%" alt="A área de trabalho estéreo em 3D com janelas translúcidas: o menu Configurações do Dolphin e sua lista de esquemas de cores à frente, as janelas de vidro atrás recuando em sequência, o monitor do sistema e o papel de parede ao fundo (anáglifo vermelho e ciano)"></a> <a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/edition-in-detail.pt-BR.md#seen-in-3d"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/stereo-desktop-dialogs-anaglyph.jpg" width="49%" alt="A área de trabalho estéreo em 3D: o menu Configurações do Marble e seu submenu Painéis à frente da janela do Marble, as janelas atrás recuando uma após a outra, e o globo do Marble em 3D dentro da janela (anáglifo vermelho e ciano)"></a>
 
@@ -46,10 +48,9 @@ Num monitor 2D comum, a mesma área de trabalho funciona sem nenhuma mudança.
 Sparky Stereo OS, a edição de Daniel Ramos do SparkyLinux (de Paweł "pavroo" Pijanowski), é um sistema Linux com uma nova área de trabalho Stereo KDE Plasma.
 Testado em TVs 3D, em monitores comuns com óculos vermelho e ciano e em um celular Android num visor de baixo custo; as telas sem óculos e os headsets autônomos estão em desenvolvimento.
 
-**Próximo passo: experimente no seu PC com Windows, pelo pendrive, sem instalar nada:** [uma página, dez passos](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/guides/try-on-windows.pt-BR.md).
-<br>Peça o download e conte sobre seu equipamento 3D, no seu idioma: [🇨🇦](https://github.com/Sparky-OS/sparky-stereo-os/issues/26) [🇧🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/25) [🇵🇱](https://github.com/Sparky-OS/sparky-stereo-os/issues/27) [🇫🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/80) [🇩🇪](https://github.com/Sparky-OS/sparky-stereo-os/issues/153) [🇲🇽](https://github.com/Sparky-OS/sparky-stereo-os/issues/351) [🇯🇵](https://github.com/Sparky-OS/sparky-stereo-os/issues/81) [🇰🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/83) [🇨🇳](https://github.com/Sparky-OS/sparky-stereo-os/issues/84) [🇭🇰](https://github.com/Sparky-OS/sparky-stereo-os/issues/85)
+**A ISO para desenvolvedores é enviada a desenvolvedores, sob pedido:** peça a sua e conte sobre seu equipamento 3D, no seu idioma: [🇨🇦](https://github.com/Sparky-OS/sparky-stereo-os/issues/26) [🇧🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/25) [🇵🇱](https://github.com/Sparky-OS/sparky-stereo-os/issues/27) [🇫🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/80) [🇩🇪](https://github.com/Sparky-OS/sparky-stereo-os/issues/153) [🇲🇽](https://github.com/Sparky-OS/sparky-stereo-os/issues/351) [🇯🇵](https://github.com/Sparky-OS/sparky-stereo-os/issues/81) [🇰🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/83) [🇨🇳](https://github.com/Sparky-OS/sparky-stereo-os/issues/84) [🇭🇰](https://github.com/Sparky-OS/sparky-stereo-os/issues/85)
 
-**Mais:** [a edição](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/README.pt-BR.md) · em inglês: [o que está pronto, em detalhe](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#sparky-stereo-os) · [como é construída](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/architectural-synthesis.md) · [nossos forks](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#repositories)
+**Mais:** [a edição](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/README.pt-BR.md) · [um guia para experimentar no Windows](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/guides/try-on-windows.pt-BR.md) · em inglês: [o que está pronto, em detalhe](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#sparky-stereo-os) · [como é construída](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/architectural-synthesis.md) · [nossos forks](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#repositories)
 
 <a id="business-editions"></a>
 <a id="sparky-business-server-and-client"></a>

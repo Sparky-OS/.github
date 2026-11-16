@@ -27,17 +27,19 @@ Arch Linux 기반과 Debian 기반의 두 가지 에디션이 있으며, 둘 다
 
 ## Sparky Stereo OS
 
-<a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/guides/try-on-windows.en.md">
+<a href="https://github.com/Sparky-OS/sparky-stereo-os/issues/83">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/stereo-ko-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/cards/stereo-ko-light.svg">
-  <img alt="Sparky Stereo OS. 개발 중: 테스터용 베타 1. 이미 가지고 있는 화면에서 3D로 만들고 탐험하세요. 다음 단계: Windows PC에서 설치 없이 사용해 보기." src="./assets/cards/stereo-ko-light.svg" width="100%">
+  <img alt="Sparky Stereo OS. 개발 중: 요청 시 개발자용 ISO. 이미 가지고 있는 화면에서 3D로 만들고 탐험하세요. 다음 단계: 개발자용 ISO 요청하기." src="./assets/cards/stereo-ko-light.svg" width="100%">
 </picture>
 </a>
 
 그림을 그리고, 사진과 비디오를 편집하고, 분자와 지구본을 연구한 다음, 영화를 보고 게임을 즐기세요.
 3D TV와 3D 프로젝터, VR 헤드셋, 무안경 3D 디스플레이, 적청 안경을 쓴 모든 모니터 등 모든 종류의 3D 화면을 위해 만들어졌습니다.
 일반 2D 모니터에서는 같은 데스크톱이 아무 변경 없이 그대로 작동합니다.
+
+<a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/screenshots/README.md#stereo-desktop-the-info-centre-and-the-menu-17-october-2026"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/stereo-info-translucent-anaglyph.jpg" width="99%" alt="반투명 창이 있는 3D 스테레오 데스크톱: 앞에는 프로그램 메뉴와 멀티미디어 목록, 뒤에는 정보 센터, 날씨와 시스템 모니터 위젯, 지구 배경화면 위의 오디오 음량 팝업이 있습니다 (적청 애너글리프)"></a>
 
 <a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/edition-in-detail.ko.md#seen-in-3d"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/translucent-stereo-desktop-anaglyph.jpg" width="49%" alt="반투명 창이 있는 3D 스테레오 데스크톱: Dolphin의 설정 메뉴와 색 구성표 목록이 앞에 있고, 유리 창들이 뒤로 한 단계씩 물러서며, 시스템 모니터와 배경화면이 가장 깊은 곳에 있습니다 (적청 애너글리프)"></a> <a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/edition-in-detail.ko.md#seen-in-3d"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/stereo-desktop-dialogs-anaglyph.jpg" width="49%" alt="3D 스테레오 데스크톱: Marble 창 앞에 Marble의 설정 메뉴와 패널 하위 메뉴가 있고, 뒤의 창들이 하나씩 물러서며, 창 안에서는 Marble의 지구본이 3D로 보입니다 (적청 애너글리프)"></a>
 
@@ -46,10 +48,9 @@ Arch Linux 기반과 Debian 기반의 두 가지 에디션이 있으며, 둘 다
 Sparky Stereo OS는 Daniel Ramos의 SparkyLinux 에디션(Paweł "pavroo" Pijanowski 제작)으로, 새로운 Stereo KDE Plasma 데스크톱을 갖춘 Linux 시스템입니다.
 3D TV, 적청 안경을 쓴 일반 모니터, 저렴한 뷰어에 넣은 Android 휴대폰에서 테스트했습니다. 무안경 디스플레이와 독립형 헤드셋은 진행 중입니다.
 
-**다음 단계: 사용 중인 Windows PC에서 USB 메모리로, 아무것도 설치하지 않고 사용해 보세요:** [한 페이지, 열 단계(영어)](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/guides/try-on-windows.en.md)
-<br>다운로드를 요청하고 여러분의 3D 장비를 알려 주세요. 원하는 언어로: [🇨🇦](https://github.com/Sparky-OS/sparky-stereo-os/issues/26) [🇧🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/25) [🇵🇱](https://github.com/Sparky-OS/sparky-stereo-os/issues/27) [🇫🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/80) [🇩🇪](https://github.com/Sparky-OS/sparky-stereo-os/issues/153) [🇲🇽](https://github.com/Sparky-OS/sparky-stereo-os/issues/351) [🇯🇵](https://github.com/Sparky-OS/sparky-stereo-os/issues/81) [🇰🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/83) [🇨🇳](https://github.com/Sparky-OS/sparky-stereo-os/issues/84) [🇭🇰](https://github.com/Sparky-OS/sparky-stereo-os/issues/85)
+**개발자용 ISO는 개발자를 위한 것이며 요청하시면 보내 드립니다:** 원하는 언어로 요청하고 여러분의 3D 장비를 알려 주세요: [🇨🇦](https://github.com/Sparky-OS/sparky-stereo-os/issues/26) [🇧🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/25) [🇵🇱](https://github.com/Sparky-OS/sparky-stereo-os/issues/27) [🇫🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/80) [🇩🇪](https://github.com/Sparky-OS/sparky-stereo-os/issues/153) [🇲🇽](https://github.com/Sparky-OS/sparky-stereo-os/issues/351) [🇯🇵](https://github.com/Sparky-OS/sparky-stereo-os/issues/81) [🇰🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/83) [🇨🇳](https://github.com/Sparky-OS/sparky-stereo-os/issues/84) [🇭🇰](https://github.com/Sparky-OS/sparky-stereo-os/issues/85)
 
-**더 보기:** [에디션](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/README.ko.md) · 영어: [만들어진 것 자세히](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#sparky-stereo-os) · [만드는 방식](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/architectural-synthesis.md) · [포크 목록](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#repositories)
+**더 보기:** [에디션](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/README.ko.md) · [Windows에서 사용해 보는 안내서](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/guides/try-on-windows.en.md) (영어) · 영어: [만들어진 것 자세히](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#sparky-stereo-os) · [만드는 방식](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/architectural-synthesis.md) · [포크 목록](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#repositories)
 
 <a id="business-editions"></a>
 <a id="sparky-business-server-and-client"></a>

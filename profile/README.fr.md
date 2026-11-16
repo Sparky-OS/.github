@@ -27,17 +27,19 @@ Par Paweł « pavroo » Pijanowski et l'équipe de SparkyLinux (site en anglais)
 
 ## Sparky Stereo OS
 
-<a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/guides/try-on-windows.en.md">
+<a href="https://github.com/Sparky-OS/sparky-stereo-os/issues/80">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/stereo-fr-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/cards/stereo-fr-light.svg">
-  <img alt="Sparky Stereo OS. En développement : bêta 1, pour les testeurs. Créez et explorez en 3D sur l'écran que vous avez déjà. Étape suivante : Essayez-le sous Windows, sans installer." src="./assets/cards/stereo-fr-light.svg" width="100%">
+  <img alt="Sparky Stereo OS. En développement : ISO développeur sur demande. Créez et explorez en 3D sur l'écran que vous avez déjà. Étape suivante : Demandez l'ISO développeur." src="./assets/cards/stereo-fr-light.svg" width="100%">
 </picture>
 </a>
 
 Peinture, retouche de photos et de vidéos, étude de molécules et de globes, puis films et jeux.
 Il est conçu pour tous les types d'écrans 3D : téléviseurs et projecteurs 3D, casques VR, écrans 3D sans lunettes et n'importe quel écran avec des lunettes rouge-cyan.
 Sur un écran 2D ordinaire, le même bureau fonctionne sans aucun changement.
+
+<a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/screenshots/README.md#stereo-desktop-the-info-centre-and-the-menu-17-october-2026"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/stereo-info-translucent-anaglyph.jpg" width="99%" alt="Le bureau stéréo en 3D avec des fenêtres translucides : le menu des applications et sa liste Multimédia en avant, le Centre d'informations derrière, les widgets de météo et de surveillance du système et la fenêtre Volume audio sur le fond d'écran de la Terre (anaglyphe rouge-cyan)"></a>
 
 <a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/edition-in-detail.fr.md#seen-in-3d"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/translucent-stereo-desktop-anaglyph.jpg" width="49%" alt="Le bureau stéréo en 3D avec des fenêtres translucides : le menu Réglages de Dolphin et sa liste de jeux de couleurs en avant, les fenêtres en verre derrière, qui reculent, le moniteur système et le fond d'écran au plus profond (anaglyphe rouge-cyan)"></a> <a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/edition-in-detail.fr.md#seen-in-3d"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/stereo-desktop-dialogs-anaglyph.jpg" width="49%" alt="Le bureau stéréo en 3D : le menu Réglages de Marble et son sous-menu Panneaux devant la fenêtre de Marble, les fenêtres derrière qui reculent l'une après l'autre, et le globe de Marble en 3D dans sa fenêtre (anaglyphe rouge-cyan)"></a>
 
@@ -46,10 +48,9 @@ Sur un écran 2D ordinaire, le même bureau fonctionne sans aucun changement.
 Sparky Stereo OS, l'édition de Daniel Ramos de SparkyLinux (par Paweł « pavroo » Pijanowski), est un système Linux doté d'un nouveau bureau KDE Plasma stéréo.
 Testé sur des téléviseurs 3D, sur des écrans ordinaires avec des lunettes rouge-cyan et sur un téléphone Android dans une visionneuse peu coûteuse ; les écrans sans lunettes et les casques autonomes sont en cours.
 
-**Étape suivante : essayez-le sur votre PC Windows, depuis une clé USB, sans rien installer :** [une page, dix étapes (en anglais)](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/guides/try-on-windows.en.md).
-<br>Demandez le téléchargement et parlez-nous de votre matériel 3D, dans votre langue : [🇨🇦](https://github.com/Sparky-OS/sparky-stereo-os/issues/26) [🇧🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/25) [🇵🇱](https://github.com/Sparky-OS/sparky-stereo-os/issues/27) [🇫🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/80) [🇩🇪](https://github.com/Sparky-OS/sparky-stereo-os/issues/153) [🇲🇽](https://github.com/Sparky-OS/sparky-stereo-os/issues/351) [🇯🇵](https://github.com/Sparky-OS/sparky-stereo-os/issues/81) [🇰🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/83) [🇨🇳](https://github.com/Sparky-OS/sparky-stereo-os/issues/84) [🇭🇰](https://github.com/Sparky-OS/sparky-stereo-os/issues/85)
+**L'ISO développeur est destinée aux développeurs et envoyée sur demande :** demandez-la et parlez-nous de votre matériel 3D, dans votre langue : [🇨🇦](https://github.com/Sparky-OS/sparky-stereo-os/issues/26) [🇧🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/25) [🇵🇱](https://github.com/Sparky-OS/sparky-stereo-os/issues/27) [🇫🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/80) [🇩🇪](https://github.com/Sparky-OS/sparky-stereo-os/issues/153) [🇲🇽](https://github.com/Sparky-OS/sparky-stereo-os/issues/351) [🇯🇵](https://github.com/Sparky-OS/sparky-stereo-os/issues/81) [🇰🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/83) [🇨🇳](https://github.com/Sparky-OS/sparky-stereo-os/issues/84) [🇭🇰](https://github.com/Sparky-OS/sparky-stereo-os/issues/85)
 
-**Plus :** [l'édition](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/README.fr.md) · en anglais : [ce qui est construit, en détail](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#sparky-stereo-os) · [comment elle est construite](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/architectural-synthesis.md) · [nos forks](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#repositories)
+**Plus :** [l'édition](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/README.fr.md) · [un guide pour l'essayer sous Windows](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/guides/try-on-windows.en.md) (en anglais) · en anglais : [ce qui est construit, en détail](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#sparky-stereo-os) · [comment elle est construite](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/architectural-synthesis.md) · [nos forks](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#repositories)
 
 <a id="business-editions"></a>
 <a id="sparky-business-server-and-client"></a>

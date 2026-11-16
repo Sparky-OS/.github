@@ -27,17 +27,19 @@
 
 ## Sparky Stereo OS
 
-<a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/guides/try-on-windows.en.md">
+<a href="https://github.com/Sparky-OS/sparky-stereo-os/issues/84">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/stereo-zh-CN-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/cards/stereo-zh-CN-light.svg">
-  <img alt="Sparky Stereo OS。开发中：beta 1，面向测试者。在你已有的屏幕上以 3D 方式创作和探索。下一步：在你的 Windows 电脑上试用，无需安装。" src="./assets/cards/stereo-zh-CN-light.svg" width="100%">
+  <img alt="Sparky Stereo OS。开发中：开发者 ISO 按需提供。在你已有的屏幕上以 3D 方式创作和探索。下一步：索取开发者 ISO。" src="./assets/cards/stereo-zh-CN-light.svg" width="100%">
 </picture>
 </a>
 
 绘图，编辑照片和视频，研究分子和地球仪，然后看电影、玩游戏。
 它为各种 3D 屏幕而设计：3D 电视和 3D 投影机、VR 头显、裸眼 3D 显示器，以及配上红青眼镜的任何显示器。
 在普通的 2D 显示器上，同一个桌面无需任何改动即可使用。
+
+<a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/screenshots/README.md#stereo-desktop-the-info-centre-and-the-menu-17-october-2026"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/stereo-info-translucent-anaglyph.jpg" width="99%" alt="带半透明窗口的 3D 立体桌面：应用程序菜单及其“多媒体”列表在前面，后面是系统信息中心、天气和系统监视器小部件，以及地球壁纸上的“音频音量”弹出窗口（红青立体图）"></a>
 
 <a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/edition-in-detail.zh-CN.md#seen-in-3d"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/translucent-stereo-desktop-anaglyph.jpg" width="49%" alt="3D 立体桌面，带半透明窗口：Dolphin 的设置菜单和配色方案列表在前面，后面的玻璃窗口一层层退开，系统监视器和壁纸最深（红青立体图）"></a> <a href="https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/edition-in-detail.zh-CN.md#seen-in-3d"><img src="https://raw.githubusercontent.com/Sparky-OS/sparky-stereo-os/main/docs/screenshots/stereo-desktop-dialogs-anaglyph.jpg" width="49%" alt="3D 立体桌面：Marble 的设置菜单和它的“面板”子菜单在 Marble 窗口前面，后面的窗口一个接一个退开，窗口里 Marble 的地球仪以 3D 显示（红青立体图）"></a>
 
@@ -46,10 +48,9 @@
 Sparky Stereo OS 是 Daniel Ramos 的 SparkyLinux 发行版（SparkyLinux 由 Paweł "pavroo" Pijanowski 制作），是一个带有全新 Stereo KDE Plasma 桌面的 Linux 系统。
 已在 3D 电视、配红青眼镜的普通显示器以及放进便宜观片盒的 Android 手机上测试；裸眼 3D 显示器和独立头显仍在进行中。
 
-**下一步：在你的 Windows 电脑上用 U 盘试用，无需安装任何东西：** [一页，十个步骤（英文）](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/guides/try-on-windows.en.md)
-<br>索取下载链接，并用你的语言告诉我们你的 3D 设备： [🇨🇦](https://github.com/Sparky-OS/sparky-stereo-os/issues/26) [🇧🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/25) [🇵🇱](https://github.com/Sparky-OS/sparky-stereo-os/issues/27) [🇫🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/80) [🇩🇪](https://github.com/Sparky-OS/sparky-stereo-os/issues/153) [🇲🇽](https://github.com/Sparky-OS/sparky-stereo-os/issues/351) [🇯🇵](https://github.com/Sparky-OS/sparky-stereo-os/issues/81) [🇰🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/83) [🇨🇳](https://github.com/Sparky-OS/sparky-stereo-os/issues/84) [🇭🇰](https://github.com/Sparky-OS/sparky-stereo-os/issues/85)
+**开发者 ISO 面向开发者，按需提供：** 请用你的语言索取，并告诉我们你的 3D 设备： [🇨🇦](https://github.com/Sparky-OS/sparky-stereo-os/issues/26) [🇧🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/25) [🇵🇱](https://github.com/Sparky-OS/sparky-stereo-os/issues/27) [🇫🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/80) [🇩🇪](https://github.com/Sparky-OS/sparky-stereo-os/issues/153) [🇲🇽](https://github.com/Sparky-OS/sparky-stereo-os/issues/351) [🇯🇵](https://github.com/Sparky-OS/sparky-stereo-os/issues/81) [🇰🇷](https://github.com/Sparky-OS/sparky-stereo-os/issues/83) [🇨🇳](https://github.com/Sparky-OS/sparky-stereo-os/issues/84) [🇭🇰](https://github.com/Sparky-OS/sparky-stereo-os/issues/85)
 
-**更多：**[发行版](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/README.zh-CN.md) · 英文：[已完成内容详情](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#sparky-stereo-os) · [构建方式](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/architectural-synthesis.md) · [我们的分支](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#repositories)
+**更多：**[发行版](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/README.zh-CN.md) · [在 Windows 上试用的指南](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/guides/try-on-windows.en.md)（英文） · 英文：[已完成内容详情](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#sparky-stereo-os) · [构建方式](https://github.com/Sparky-OS/sparky-stereo-os/blob/main/docs/architectural-synthesis.md) · [我们的分支](https://github.com/Sparky-OS/.github/blob/main/profile/in-detail.md#repositories)
 
 <a id="business-editions"></a>
 <a id="sparky-business-server-and-client"></a>

@@ -3,7 +3,7 @@
 **For** readers who want the whole picture: where SparkyOS onUSB lives, what is built, the business editions, every repository by area, related work, and how this relates to SparkyLinux.
 [Back to the profile](https://github.com/Sparky-OS)
 
-**In development:** the [Flat Headset development APK and matching PC update instructions](https://github.com/Sparky-OS/flat-headset/tree/main/apk) are available, and a developer ISO for testers now starts on new PCs with Secure Boot on, on older BIOS PCs and on 32-bit UEFI machines; the final stereo edition ISO is still being prepared.
+**In development:** the [Flat Headset development APK and matching PC update instructions](https://github.com/Sparky-OS/flat-headset/tree/main/apk) are available, and the developer ISO, sent to developers on request, starts on new PCs with Secure Boot on, on older BIOS PCs and on 32-bit UEFI machines; the final stereo edition ISO is still being prepared.
 
 ## SparkyOS onUSB
 
@@ -39,7 +39,7 @@ Paweł names each Sparky generation after a sky object that is also a myth, and 
 **Merged upstream:** Universal Media Server keeps 3D video declared through transcoding, so televisions switch to 3D on their own; HandBrake, MKVToolNix and mpv took our 3D fixes too ([the list](https://github.com/Sparky-OS/sparky-stereo-os#merged-outside-sparky-stereo)).
 
 **Status: in development.**
-The packages are published in our signed repository, and a developer ISO goes to testers; the first public ISO is being prepared.
+The packages are published in our signed repository, and the developer ISO goes to developers on request; the first public ISO is being prepared.
 Nothing here is a release yet.
 
 ## Business editions
