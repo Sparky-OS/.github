@@ -55,6 +55,9 @@ def page(lang):
     edition = EDI if en else f"{EDI}/blob/main/README.{lang}.md"
     seen = f"{EDI}/blob/main/docs/edition-in-detail{'.' + lang if lang in DETAIL_LANGS else ''}.md#seen-in-3d"
     guide = f"{EDI}/blob/main/docs/guides/try-on-windows.{lang if lang in GUIDE_LANGS else 'en'}.md"
+    guide_en = "" if (en or lang in GUIDE_LANGS) else in_en
+    ask = "https://github.com/Sparky-OS/sparky-stereo-os/issues/" + str(dict(zip(strings.LANGS, [n for _, n in SIGNUP]))[lang])
+    gallery = f"{EDI}/blob/main/docs/screenshots/README.md#stereo-desktop-the-info-centre-and-the-menu-17-october-2026"
     arch = f"{EDI}/blob/main/docs/architectural-synthesis.md"
     q = lambda t: t.replace('"', "&quot;")  # noqa: E731
     anchor = (lambda i: "") if en else (lambda i: f'<a id="{i}"></a>\n')
@@ -94,11 +97,13 @@ def page(lang):
 
 ## Sparky Stereo OS
 
-{picture('stereo', lang, guide)}
+{picture('stereo', lang, ask)}
 
 {s['stereo_more']}
 {s['screens']}
 {s['plain2d']}
+
+<a href="{gallery}"><img src="{shot}stereo-info-translucent-anaglyph.jpg" width="99%" alt="{q(s['alt_pic0'])}"></a>
 
 <a href="{seen}"><img src="{shot}translucent-stereo-desktop-anaglyph.jpg" width="49%" alt="{q(s['alt_pic1'])}"></a> <a href="{seen}"><img src="{shot}stereo-desktop-dialogs-anaglyph.jpg" width="49%" alt="{q(s['alt_pic2'])}"></a>
 
@@ -107,10 +112,9 @@ def page(lang):
 {s['credit']}
 {s['tested']}
 
-**{s['next_full']}** [{s['guide_label']}]({guide}){'' if lang in CJK or lang == 'ko' else '.'}
-<br>{s['signup']} {signup}
+**{s['next_full']}** {s['signup']} {signup}
 
-**{s['more']}{colon.rstrip() if lang not in CJK else colon}**{' ' if lang not in CJK else ''}[{s['d_edition']}]({edition}) · {en_prefix}[{s['d_detail']}]({DETAIL}#sparky-stereo-os) · [{s['d_built']}]({arch}) · [{s['d_forks']}]({DETAIL}#repositories)
+**{s['more']}{colon.rstrip() if lang not in CJK else colon}**{' ' if lang not in CJK else ''}[{s['d_edition']}]({edition}) · [{s['guide_label']}]({guide}){guide_en} · {en_prefix}[{s['d_detail']}]({DETAIL}#sparky-stereo-os) · [{s['d_built']}]({arch}) · [{s['d_forks']}]({DETAIL}#repositories)
 
 <a id="business-editions"></a>
 {anchor('sparky-business-server-and-client')}## {s['h_business']}
